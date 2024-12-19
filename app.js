@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
   res.send("Root Page");
 });
 
+//
 app.use("/api/auth", authRoutes);
 
 app.listen(port, () => {
